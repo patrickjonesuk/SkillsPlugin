@@ -1,0 +1,37 @@
+
+skills:
+  Agility:
+    enabled: true
+    multipliers:
+      rate: 1
+      baseXp: 83
+      exponentialBase: 1.1
+      effect: 1
+    abilities:
+      speed potion: 15
+  Combat:
+    enabled: true
+    multipliers:
+      rate: 1
+      baseXp: 83
+      exponentialBase: 1.1
+      effect: 1
+  Endurance:
+    enabled: true
+    multipliers:
+      rate: 1
+      baseXp: 83
+      exponentialBase: 1.1
+      effect: 1
+    abilities:
+      heart: 10
+  Magic:
+    enabled: true
+    multipliers:
+      rate: 1
+      baseXp: 83
+      exponentialBase: 1.1
+      effect: 1
+settings:
+  pvp: true
+  pve: false

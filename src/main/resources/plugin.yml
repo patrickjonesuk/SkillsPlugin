@@ -1,0 +1,30 @@
+name: Skills
+version: 1.0.0
+main: me.pjones.skills.Skills
+description: Basic skill progression plugin
+api-version: 1.16
+author: pjones123
+
+commands:
+  reloadconfig:
+    permission: skills.admin
+    permission-message: You do not have permission to use this command
+    description: reload plugin configuration during runtime
+  registerskills:
+    description: register skills for every player
+    permission: skills.admin
+    permission-message: You do not have permission to use this command
+  unregisterskills:
+    description: unregister skills for every player
+    permission: skills.admin
+    permission-message: You do not have permission to use this command
+  viewskills:
+    description: view skills of all players
+    permission: skills.admin
+    permission-message: You do not have permission to use this command
+
+permissions:
+  skills.admin:
+    description: use admin commands
+    default: op
+
